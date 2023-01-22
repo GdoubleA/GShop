@@ -30,8 +30,8 @@ body {
 .oops {
     display: flex;
     align-items: center;
-    object-position: center;
     justify-items: center;
+    text-align: center;
     
 }
 
@@ -94,6 +94,7 @@ body {
 .card {
     background: linear-gradient(270deg, #D2CBCB 0%, #DCDCDC 0%, #696565 100%);
     color: rgb(0, 0, 0);
+    position: relative;
     
 }
 
@@ -103,13 +104,18 @@ body {
 
 }
 
-
+.text {
+    text-shadow: 0 0 15px #7fffd4;
+    transform: rotateX(360deg) rotateY(15deg);
+    transform-style: preserve-3d;
+}
 
 
 .slide-text,
 .footer-text {
     color: rgb(0, 0, 0);
     margin: auto auto;
+    perspective: 240px;
 }
 
 footer,
