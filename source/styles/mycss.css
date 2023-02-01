@@ -14,8 +14,6 @@ body {
 
 
 .slide-text {
-    transform: rotateX(340deg) rotateY(17deg);
-    transform-style: preserve-3d;
     font-size: 2em;
 }
 
@@ -55,7 +53,9 @@ body {
 
 
     
-
+.row {
+    position: relative;
+}
  
     
 
@@ -106,16 +106,13 @@ body {
 
 .text {
     text-shadow: 0 0 15px #7fffd4;
-    transform: rotateX(360deg) rotateY(15deg);
-    transform-style: preserve-3d;
 }
 
 
 .slide-text,
 .footer-text {
     color: rgb(0, 0, 0);
-    margin: auto auto;
-    perspective: 240px;
+    margin: auto auto;   
 }
 
 footer,
